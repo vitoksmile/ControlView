@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.vitoksmile.library.view.controlview.ControlView xmlns:cv="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/controlView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            cv:colorArc="@color/colorAccent"
+            cv:colorBase="@color/colorPrimaryDark"
+            cv:colorValueNeed="@color/colorAccent"
+            cv:rangeMax="80"
+            cv:rangeMin="20"
+            cv:text="%"
+            cv:value="34"
+            cv:valueNeed="44" />
+
+        <Button
+            android:id="@+id/btnHumidity"
+            style="@style/Button"
+            android:text="@string/humidity" />
+
+        <Button
+            android:id="@+id/btnTemperature"
+            style="@style/Button"
+            android:text="@string/temperature" />
+
+        <Button
+            android:id="@+id/btnOther"
+            style="@style/Button"
+            android:text="@string/other" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usefulContent" />
+
+    </LinearLayout>
+
+</ScrollView>

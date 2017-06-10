@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="ControlView">
+        <attr name="colorBase" format="integer" />
+        <attr name="colorArc" format="integer" />
+        <attr name="colorValueNeed" format="integer" />
+        <attr name="value" format="float" />
+        <attr name="valueNeed" format="float" />
+        <attr name="rangeMin" format="float" />
+        <attr name="rangeMax" format="float" />
+        <attr name="text" format="string" />
+        <attr name="disable" format="boolean" />
+    </declare-styleable>
+</resources>

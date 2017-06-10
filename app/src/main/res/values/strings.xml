@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ControlView App</string>
+
+    <string name="humidity">Humidity</string>
+    <string name="temperature">Temperature</string>
+    <string name="other">Other</string>
+
+    <string name="usefulContent">Useful content.\nUseful content.\nUseful content.\nUseful content.\nUseful content.\nUseful content.\nUseful content.\nP.S. for scrolling</string>
+</resources>
